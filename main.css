@@ -1,0 +1,22 @@
+body {
+  background-color: #26496B;
+/*
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+*/
+}
+#hohoho {
+  text-align: center;
+  width: 280px;
+  position: absolute;
+  top: calc(35%);
+  left: calc(50% - 140px);
+}
+
+
+form input {
+  margin-bottom: 12px;
+}
