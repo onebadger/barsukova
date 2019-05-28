@@ -1,43 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.barsukov.ru" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="">
-    
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="robots" content="noindex,nofollow" />
-    <title>Barsukova</title>
-    <link rel="icon" href="">
-    <link rel="image_src" href="" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;subset=cyrillic" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" type="text/css" href="main.css" />
-<!--    <link rel="stylesheet" type="text/css" href="css/responsive.css" />-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  </head>
-  <body>
-    <div id="hohoho">
-      <form action="form.php" method="post">
-        <div class="form-group">
-          <label class="text-white" for="email">Держите меня в курсе</label>
-          <input type="email" class="form-control" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="@">
-          <button type="submit" class="btn btn-success">hjsdfbjs</button>
-        </div>
-        
-      </form>
-    </div>
-  </body>
-</html>
+<head>
+  <meta charset="utf-8">
+  <title>barsukova</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;subset=cyrillic" rel="stylesheet" />
+</head><body>
+  <style>
+    body{background-color:#E4678D;display:flex;flex-direction:column;justify-content:center;align-items:center;align-content:center;}#hohoho{text-align:center;width:280px;position:absolute;top:calc(35%);left:calc(50% - 140px);}form input{margin-bottom:12px;}a{color:white;text-decoration:none!important;}a:visited{color:white;}
+  </style>
+  <div id="hohoho">
+    <form action="form.php" method="post">
+      <div class="form-group">
+        <label class="text-white" for="name-input">Воимя</label>
+        <input type="text" class="form-control" id="name-input" placeholder="Амн" name="user_name">
+      </div>
+      <div class="form-group">
+        <label class="text-white" for="email-input">Держите меня в курсе</label>
+        <input type="email" class="form-control" id="email-input" placeholder="@" name="user_email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+      </div>
+      <button type="submit" class="btn btn-secondary">hjsdfbjs</button>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script>$(document).ready(function(){$('.form-group:nth-child(1)').css('display', 'none');});
+  </script>
+</body></html>
